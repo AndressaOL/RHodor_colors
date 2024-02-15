@@ -30,15 +30,15 @@ source("path/to/RHodor_palettes.R")
 ```
 
 # Usage
-*replace for your preference palette in hodor_pal("palette name")*  <br />
-*adjust the number of colors in ( )* <br />
-*use show_col to verify the colors* <br />
 
 ```
 colors <- hodor_pal("hawkins_s")(15)
 colors
 show_col(colors)
 ```
+*replace for your preference palette in hodor_pal("palette name")*  <br />
+*adjust the number of colors in ( )* <br />
+*use show_col to verify the colors* <br />
 
 # Palettes 
 
