@@ -2,10 +2,9 @@
 
 #' Based on:
 #' https://cano-barbacil.wixsite.com/canobarbacil/post/create-your-own-color-palette-in-r 
-#' Use yhr function hodor_pal 
+#' Use the function hodor_pal 
 
 library(scales)
-
 
 ##vector colors 
 mycolors <- c(
@@ -61,27 +60,27 @@ show_col(mycolors)
 
 #palette function 
 
-mycols <- function(...) {
-  cols <- c(...)
-  if (is.null(cols))
-    return (mycolors)
-  mycolors[cols]
+myc <- function(...) {
+  co <- c(...)
+  if (is.null(co))
+    return (myc)
+  myc[co]
 }
 
 #testing colors 
-mycols("disco")
-mycols("blue upsidedown1")
+myc("disco")
+myc("blue upsidedown1")
 
 ##ist of Color Palettes 
-mypalettes <- list(
-`gg_lab` = mycols("green parsley","green malachite","greenyellow pear","greenblue spring","yellow green","sanguine brown","gamboge orange","orange red","lightning yellow","lemon yellow","torch red","hot pink","wewak","magenta","disco","biloba flower","blue melrose","persian blue","blue mariner","aqua"),
-`grey_a` = mycols("blue grey1","blue grey2","blue grey3","red yang","peach lexie","green karev","green george","green jackson","charm izzie","pink scrubs","yellow mer"),
-`hawkins_s` = mycols("brown vecna","red vecna","rose vecna","red blood","orange upsidedown1","orange upsidedown2","yellow max","pearl lab","blue upsidedown1","blue upsidedown2","blue creelhouse1","blue creelhouse2","blue creelhouse3","lightblue eddie","lightblue max")  
+mypal1 <- list(
+`gg_lab` = myc("green parsley","green malachite","greenyellow pear","greenblue spring","yellow green","sanguine brown","gamboge orange","orange red","lightning yellow","lemon yellow","torch red","hot pink","wewak","magenta","disco","biloba flower","blue melrose","persian blue","blue mariner","aqua"),
+`grey_a` = myc("blue grey1","blue grey2","blue grey3","red yang","peach lexie","green karev","green george","green jackson","charm izzie","pink scrubs","yellow mer"),
+`hawkins_s` = myc("brown vecna","red vecna","rose vecna","red blood","orange upsidedown1","orange upsidedown2","yellow max","pearl lab","blue upsidedown1","blue upsidedown2","blue creelhouse1","blue creelhouse2","blue creelhouse3","lightblue eddie","lightblue max")  
 )
 
 #create a function "hol_pal"
 hodor_pal <- function(palette = "hawkins_s", reverse = FALSE, ...) {
-  pal <- mypalettes[[palette]]
+  pal <- mypal1[[palette]]
   if (reverse) pal <- rev(pal)
   colorRampPalette(pal, ...)
 }
