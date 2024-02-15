@@ -22,7 +22,7 @@ hodor_pal("hawkins_s")
 ```
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/hawkinscolors.png)
 
-**GG Lab Palette (20)** (Personalized palette color ) <br />
+**GG Lab Palette (20)** (Personalized palette color ) 
 
 ```
 hodor_pal("gg_lab") 
