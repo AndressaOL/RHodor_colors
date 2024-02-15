@@ -2,37 +2,64 @@
 
 **Hodor**, named initially Wylis, was a servant of House Stark at Winterfell, loyal to Bran Stark. Hodor was one of the most underestimated characters in **Game of Thrones** and provided one of the most memorable episodes of the series **("The Door")**, arguably better than the series finale!! <br />
 
-#**Installation** <br />
+#**Requirements:**  <br />
+*install from CRAN** <br />
 
 ```
-devtools::install_github("AndressaOL/RHodor_colors")
+install.packages("devtools")
+install.packages("scales")
 ```
-#**Usage** <br />
+
+#**Download the R code source** <br />
+
+**Install the code source in your local machine** <br />
 
 ```
-library(RHodor_colors) 
+git clone https://github.com/AndressaOL/RHodor_colors.git
 ```
+
+
+#**Load the R code source** <br />
+*replace 'path/to' to your actual path where you downloaded the R script* <br />
+
+```
+library(devtools)
+library(scales)
+source("path/to/RHodor_palettes.R")
+
+```
+
+##**How to Use** <br />
+#*replace for your preference palette in hodor_pal("palette name")*  
+#*adjust the number of colors in () 
+#*Use show_col to verify the colors* 
+```
+colors <- hodor_pal("hawkins_s")(15)
+colors
+show_col(colors)
+```
+
 
 #**Palettes** <br />
 
 **Hawkins Lab Palette (15)** (Stranger Strings) <br />
 
 ```
-hodor_pal("hawkins_s")
+hodor_pal("hawkins_s") (15)
 ```
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/hawkinscolors.png)
 
 **GG Lab Palette (20)** (Personalized palette color ) 
 
 ```
-hodor_pal("gg_lab") 
+hodor_pal("gg_lab") (20)
 ```
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/gg_labcolors.png)
 
 **Grey Anatomy Palette (11)**  (Grey's Anatomy)  <br />
 
 ```
-hodor_pal("grey_s")
+hodor_pal("grey_s") (11)
 ```
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/greycolors.png) 
 
