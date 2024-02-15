@@ -80,7 +80,7 @@ color_names
 [41] "blue upsidedown2"   "blue creelhouse1"   "blue creelhouse2"   "blue creelhouse3"  
 [45] "lightblue eddie"    "lightblue max" 
 ```
-*gg_lab[1-20]*;*grey_a[21-31]*;hawkins_s[32-46]* 
+* *gg_lab(1-20) ;grey_a(21-31) ;hawkins_s(32-46)* 
 
 **To Select specific colors in the palette** <br />
 
