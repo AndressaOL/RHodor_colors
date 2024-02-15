@@ -10,7 +10,7 @@ devtools::install_github("AndressaOL/RHodor_colors")
 #**Usage** <br />
 
 ```
-library(RHodor_colors) <br />
+library(RHodor_colors) 
 ```
 
 #**Palettes** <br />
