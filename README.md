@@ -80,12 +80,37 @@ color_names
 [41] "blue upsidedown2"   "blue creelhouse1"   "blue creelhouse2"   "blue creelhouse3"  
 [45] "lightblue eddie"    "lightblue max" 
 ```
+*gg_lab[1-20]; 
+
 **Create your palette colors** <br />
+
+1.) Using the palettes <br />
 
 ```
 mycols= hodor_pal("hawkins_s")(3)
 show_col(mycols)
 ```
+or <br />
+
+2.) Using the colors by name <br />
+
+```
+selected_colors <- mypallet[c("disco", "blue upsidedown1", "yellow max")]
+selected_colors
+show_col(selected_colors)
+```
+
+# Using the RHodor palettes in ggplot2
+
+**Example 1** <br />
+```
+ggplot(data, aes(x=factor, y=variable, fill=factor))+
+      geom_bar(stat="identity", color="black")+
+      scale_fill_hodor(discrete = TRUE, palette = "hawkins_s")+
+      labs(title = "SNVs", x = "Allele", y = "Density (%)") +
+       theme_minimal()
+```
+
 
 
 
