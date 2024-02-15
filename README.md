@@ -63,9 +63,9 @@ hodor_pal("grey_s") (11)
 ```
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/greycolors.png) 
 
-Use the colors from RHodor palettes
+# Use the colors from RHodor palettes
 ```
-color_names <- names(mycolors)
+color_names <- names(mypallet)
 color_names
  [1] "green parsley"      "green malachite"    "greenyellow pear"   "greenblue spring"  
  [5] "yellow green"       "sanguine brown"     "gamboge orange"     "orange red"        
@@ -80,7 +80,12 @@ color_names
 [41] "blue upsidedown2"   "blue creelhouse1"   "blue creelhouse2"   "blue creelhouse3"  
 [45] "lightblue eddie"    "lightblue max" 
 ```
+**Create your palette colors** <br />
 
+```
+mycols= hodor_pal("hawkins_s")(3)
+show_col(mycols)
+```
 
 
 
