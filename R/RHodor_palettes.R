@@ -61,10 +61,10 @@ show_col(myc)
 #palette function 
 
 myc <- function(...) {
-  co <- c(...)
-  if (is.null(co))
+  col <- c(...)
+  if (is.null(col))
     return (myc)
-  myc[co]
+  myc[col]
 }
 
 #testing colors 
