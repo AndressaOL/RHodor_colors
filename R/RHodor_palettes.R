@@ -7,7 +7,7 @@
 library(scales)
 
 ##vector colors 
-myc <- c(
+mypallet <- c(
   `green parsley`= "#186621",
   `green malachite`= "#22E11D",
   `greenyellow pear`= "#B4E52E",
@@ -56,26 +56,26 @@ myc <- c(
   `lightblue max`= "#4AE7E6" #rosa_hawkins
   )
 
-show_col(myc)
+show_col(mypallet)
 
 #palette function 
 
-myc <- function(...) {
-  col <- c(...)
-  if (is.null(col))
-    return (myc)
-  myc[col]
+myvector <- function(...) {
+  col1 <- c(...)
+  if (is.null(col1))
+    return (mypallet)
+  mypallet[col1]
 }
 
 #testing colors 
-myc("disco")
-myc("blue upsidedown1")
+myvector("disco")
+myvector("blue upsidedown1")
 
 ##ist of Color Palettes 
 mypal1 <- list(
-`gg_lab` = myc("green parsley","green malachite","greenyellow pear","greenblue spring","yellow green","sanguine brown","gamboge orange","orange red","lightning yellow","lemon yellow","torch red","hot pink","wewak","magenta","disco","biloba flower","blue melrose","persian blue","blue mariner","aqua"),
-`grey_a` = myc("blue grey1","blue grey2","blue grey3","red yang","peach lexie","green karev","green george","green jackson","charm izzie","pink scrubs","yellow mer"),
-`hawkins_s` = myc("brown vecna","red vecna","rose vecna","red blood","orange upsidedown1","orange upsidedown2","yellow max","pearl lab","blue upsidedown1","blue upsidedown2","blue creelhouse1","blue creelhouse2","blue creelhouse3","lightblue eddie","lightblue max")  
+`gg_lab` = myvector("green parsley","green malachite","greenyellow pear","greenblue spring","yellow green","sanguine brown","gamboge orange","orange red","lightning yellow","lemon yellow","torch red","hot pink","wewak","magenta","disco","biloba flower","blue melrose","persian blue","blue mariner","aqua"),
+`grey_a` = myvector("blue grey1","blue grey2","blue grey3","red yang","peach lexie","green karev","green george","green jackson","charm izzie","pink scrubs","yellow mer"),
+`hawkins_s` = myvector("brown vecna","red vecna","rose vecna","red blood","orange upsidedown1","orange upsidedown2","yellow max","pearl lab","blue upsidedown1","blue upsidedown2","blue creelhouse1","blue creelhouse2","blue creelhouse3","lightblue eddie","lightblue max")  
 )
 
 #create a function "hol_pal"
