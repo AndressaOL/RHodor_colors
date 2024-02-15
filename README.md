@@ -61,7 +61,7 @@ hodor_pal("gg_lab") (20)
 ```
 hodor_pal("grey_a") (11)
 ```
-![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/greycolors.png) 
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/greycolors1.png) 
 
 # Use the colors from RHodor palette
 ```
