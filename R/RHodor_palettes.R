@@ -7,7 +7,7 @@
 library(scales)
 
 ##vector colors 
-mycolors <- c(
+myc <- c(
   `green parsley`= "#186621",
   `green malachite`= "#22E11D",
   `greenyellow pear`= "#B4E52E",
@@ -56,7 +56,7 @@ mycolors <- c(
   `lightblue max`= "#4AE7E6" #rosa_hawkins
   )
 
-show_col(mycolors)
+show_col(myc)
 
 #palette function 
 
