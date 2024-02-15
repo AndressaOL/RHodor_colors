@@ -102,7 +102,8 @@ show_col(selected_colors)
 
 # Using the RHodor palettes in ggplot2
 
-**Example 1** <br />
+
+**Example 1** with `scale_fill_hodor` <br />
 ```
 ggplot(data, aes(x=factor, y=variable, fill=factor))+
       geom_bar(stat="identity", color="black")+
@@ -110,6 +111,21 @@ ggplot(data, aes(x=factor, y=variable, fill=factor))+
       labs(title = "SNVs", x = "Allele", y = "Density (%)") +
        theme_minimal()
 ```
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/example1.tiff)
+
+**Example 2** with `scale_color_hodor` <br />
+
+```
+ggplot(data, aes(x=factor, y=variable, color=factor))+
+  geom_point(size = 4, alpha = 1) +
+  scale_color_hodor(discrete = TRUE, palette = "hawkins_s")+
+  labs(title = "SNVs", x = "Allele", y = "Density (%)") +
+  theme_minimal()
+```
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/example2.tiff) 
+
+
+
 
 
 
