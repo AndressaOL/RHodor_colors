@@ -31,8 +31,8 @@ source("path/to/RHodor_palettes.R")
 
 # Usage
 *replace for your preference palette in hodor_pal("palette name")*  <br />
-*adjust the number of colors in () <br />
-*Use show_col to verify the colors* <br />
+*adjust the number of colors in ( )* <br />
+*use show_col to verify the colors* <br />
 
 ```
 colors <- hodor_pal("hawkins_s")(15)
@@ -59,11 +59,11 @@ hodor_pal("gg_lab") (20)
 **Grey Anatomy Palette (11)**  (Grey's Anatomy)  <br />
 
 ```
-hodor_pal("grey_s") (11)
+hodor_pal("grey_a") (11)
 ```
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/greycolors.png) 
 
-# Use the colors from RHodor palettes
+# Use the colors from RHodor palette
 ```
 color_names <- names(mypallet)
 color_names
@@ -80,11 +80,11 @@ color_names
 [41] "blue upsidedown2"   "blue creelhouse1"   "blue creelhouse2"   "blue creelhouse3"  
 [45] "lightblue eddie"    "lightblue max" 
 ```
-*gg_lab[1-20]; 
+*gg_lab[1-20]*;*grey_a[21-31]*;hawkins_s[32-46]* 
 
-**Create your palette colors** <br />
+**To Select specific colors in the palette** <br />
 
-1.) Using the palettes <br />
+1.) Using the scale palettes  <br />
 
 ```
 mycols= hodor_pal("hawkins_s")(3)
@@ -100,7 +100,7 @@ selected_colors
 show_col(selected_colors)
 ```
 
-# Using the RHodor palettes in ggplot2
+# RHodor palettes in ggplot2
 
 
 **Example 1** with `scale_fill_hodor` <br />
