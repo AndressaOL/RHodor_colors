@@ -15,6 +15,9 @@ library(RHodor_colors)
 
 #**Palettes** <br />
 
-**Hawkins Lab** (Stranger Strings) <br />
+**Hawkins Lab (15)** (Stranger Strings) <br />
 
 ```
+hodor_pal("hawkins_s")
+```
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/hawkinscolors.png)
