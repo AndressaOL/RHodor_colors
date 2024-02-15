@@ -111,7 +111,7 @@ ggplot(data, aes(x=factor, y=variable, fill=factor))+
       labs(title = "SNVs", x = "Allele", y = "Density (%)") +
        theme_minimal()
 ```
-![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/example1.tiff)
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/example1.png)
 
 **Example 2** with `scale_color_hodor` <br />
 
@@ -122,7 +122,7 @@ ggplot(data, aes(x=factor, y=variable, color=factor))+
   labs(title = "SNVs", x = "Allele", y = "Density (%)") +
   theme_minimal()
 ```
-![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/example2.tiff) 
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/example1.png) 
 
 
 
