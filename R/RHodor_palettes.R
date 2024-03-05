@@ -27,7 +27,7 @@ mypallet <- c(
   `blue melrose`= "#A4B8FF",
   `persian blue`= "#1B1AD6",
   `blue mariner`= "#2074C1",
-  `aqua`= "#27DAD8", #rosa_gg
+  `aqua`= "#27DAD8", #hodor_gg
   `blue grey1`= "#0E3753",
   `blue grey2`= "#436898",
   `blue grey3`= "#4D94D4",
@@ -38,7 +38,7 @@ mypallet <- c(
   `green jackson`= "#0C6D0A",
   `charm izzie`= "#D26784",
   `pink scrubs`= "#FDC7DF",
-  `yellow mer`= "#FCE091", #rosa_grey
+  `yellow mer`= "#FCE091", #hodor_grey
   `brown vecna`= "#553632",
   `red vecna`= "#7C0A0A",
   `rose vecna`= "#D25E5E",
@@ -53,7 +53,12 @@ mypallet <- c(
   `blue creelhouse2`= "#4C53FA",
   `blue creelhouse3`= "#94B6EB",
   `lightblue eddie`= "#8BD6FD",
-  `lightblue max`= "#4AE7E6" #rosa_hawkins
+  `lightblue max`= "#4AE7E6", #hodor_hawkins
+  `navy ellie` = "#0B165E",
+  `blue jack` = "#2C2693",
+  `blue collins` = "#0845F2",
+  `royal cafe paris` = "#306FE5",
+   `lightblue london` = "#2B92D4",
   )
 
 show_col(mypallet)
