@@ -63,7 +63,14 @@ mypallet <- c(
   `fuchisa soho` = " #CA67DC",
   `violet 1960` = " #9215D0",
   `pink sandie` = "#C54C8D",
-  `deeppink 8PM` = "#821654" #Last Night in Soho
+  `deeppink 8PM` = "#821654", #Last Night in Soho
+  `blue black mirror` = "#465878",
+  `lightblue social` = "#9FB1D2",
+  `blue score` = "#C4D1E1",
+  `beige dystopia` = "#BEAFAF",
+  `rose lacie` = "#B86D85",
+  `red fake` = "#A95B5B",
+  `pink stars` = "#A75F80" #Nosedive
   )
 
 show_col(mypallet)
