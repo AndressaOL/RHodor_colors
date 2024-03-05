@@ -79,15 +79,6 @@ hodor_pal("soho") (10)
 mycols= hodor_pal("hawkins_s")(3)
 show_col(mycols)
 ```
-or <br />
-
-2.) Using the colors by name <br />
-
-```
-selected_colors <- mypallet[c("disco", "blue upsidedown1", "yellow max")]
-selected_colors
-show_col(selected_colors)
-```
 
 # RHodor palettes in ggplot2
 
