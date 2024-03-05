@@ -71,6 +71,14 @@ hodor_pal("soho") (10)
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/soho.png) 
 
 
+**Palette  black_m (7)** (Nosedive)  <br /> 
+
+```
+hodor_pal("black_m") (7)
+```
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/nosedive.png)
+
+
 **Select specific colors in the palette** <br />
 
 ```
