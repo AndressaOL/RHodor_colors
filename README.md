@@ -63,24 +63,13 @@ hodor_pal("grey_a") (11)
 ```
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/greycolors1.png) 
 
-# Use the colors from RHodor palette
+**Soho Palette (10)** (Last Night in Soho)  <br /> 
+
 ```
-color_names <- names(mypallet)
-color_names
- [1] "green parsley"      "green malachite"    "greenyellow pear"   "greenblue spring"  
- [5] "yellow green"       "sanguine brown"     "gamboge orange"     "orange red"        
- [9] "lightning yellow"   "lemon yellow"       "torch red"          "hot pink"          
-[13] "wewak"              "magenta"            "disco"              "biloba flower"     
-[17] "blue melrose"       "persian blue"       "blue mariner"       "aqua"              
-[21] "blue grey1"         "blue grey2"         "blue grey3"         "red yang"          
-[25] "peach lexie"        "green karev"        "green george"       "green jackson"     
-[29] "charm izzie"        "pink scrubs"        "yellow mer"         "brown vecna"       
-[33] "red vecna"          "rose vecna"         "red blood"          "orange upsidedown1"
-[37] "orange upsidedown2" "yellow max"         "pearl lab"          "blue upsidedown1"  
-[41] "blue upsidedown2"   "blue creelhouse1"   "blue creelhouse2"   "blue creelhouse3"  
-[45] "lightblue eddie"    "lightblue max" 
+hodor_pal("soho") (10)
 ```
-* *gg_lab(1-20) ;grey_a(21-31) ;hawkins_s(32-46)* 
+![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/soho.png) 
+
 
 **To Select specific colors in the palette** <br />
 
