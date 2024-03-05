@@ -93,7 +93,8 @@ mypal1 <- list(
 `gg_lab` = myvector("green parsley","green malachite","greenyellow pear","greenblue spring","yellow green","sanguine brown","gamboge orange","orange red","lightning yellow","lemon yellow","torch red","hot pink","wewak","magenta","disco","biloba flower","blue melrose","persian blue","blue mariner","aqua"),
 `grey_a` = myvector("blue grey1","blue grey2","blue grey3","red yang","peach lexie","green karev","green george","green jackson","charm izzie","pink scrubs","yellow mer"),
 `hawkins_s` = myvector("brown vecna","red vecna","rose vecna","red blood","orange upsidedown1","orange upsidedown2","yellow max","pearl lab","blue upsidedown1","blue upsidedown2","blue creelhouse1","blue creelhouse2","blue creelhouse3","lightblue eddie","lightblue max"),
-`soho` = myvector("navy ellie","blue jack","blue collins","royal cafe paris","lightblue london","purple eloise","fuchisa soho","violet 1960","pink sandie","deeppink 8PM")  
+`soho` = myvector("navy ellie","blue jack","blue collins","royal cafe paris","lightblue london","purple eloise","fuchisa soho","violet 1960","pink sandie","deeppink 8PM"),
+`black_m`= myvector("blue black mirror", "lightblue social", "blue score", "beige dystopia", "rose lacie","red fake", "pink stars")
 )
 
 #create a function "hol_pal"
