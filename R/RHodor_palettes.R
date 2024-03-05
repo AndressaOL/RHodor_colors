@@ -61,7 +61,7 @@ mypallet <- c(
   `lightblue london` = "#2B92D4",
   `purple eloise` = "#B241DF",
   `fuchisa soho` = "#CA67DC",
-  `violet 1960` = " #9215D0",
+  `violet 1960` = "#9215D0",
   `pink sandie` = "#C54C8D",
   `deeppink 8PM` = "#821654", #Last Night in Soho
   `blue black mirror` = "#465878",
