@@ -58,7 +58,12 @@ mypallet <- c(
   `blue jack` = "#2C2693",
   `blue collins` = "#0845F2",
   `royal cafe paris` = "#306FE5",
-   `lightblue london` = "#2B92D4",
+  `lightblue london` = "#2B92D4",
+  `purple eloise` = "#B241DF",
+  `fuchisa soho` = " #CA67DC",
+  `violet 1960` = " #9215D0",
+  `pink sandie` = "#C54C8D",
+  `deeppink 8PM` = "#821654" #Last Night in Soho
   )
 
 show_col(mypallet)
