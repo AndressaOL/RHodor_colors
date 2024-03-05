@@ -71,9 +71,7 @@ hodor_pal("soho") (10)
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/soho.png) 
 
 
-**To Select specific colors in the palette** <br />
-
-1.) Using the scale palettes  <br />
+**Select specific colors in the palette** <br />
 
 ```
 mycols= hodor_pal("hawkins_s")(3)
