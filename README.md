@@ -1,11 +1,17 @@
-# RHodor Palettes 
+# ${{\color{black}\Huge{\textsf{RHodor Palettes}}}}\$  <br />
 
+<img src="https://github.com/AndressaOL/RHodor_colors/blob/main/figure/hodor.jpg" alt="Alt text" title="HODOR" width="250" align="right">
 
-<img src="https://github.com/AndressaOL/RHodor_colors/blob/main/figure/hodor.jpg" alt="Alt text" title="HODOR">
-
+ **Hodor**, named initially Wylis, was a servant of House Stark at Winterfell, loyal to Bran Stark. Hodor was one of the most underestimated characters in **Game of Thrones** and provided one of the most memorable episodes of the series **("The Door")**, arguably better than the series finale!! <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 ##
-**Hodor**, named initially Wylis, was a servant of House Stark at Winterfell, loyal to Bran Stark. Hodor was one of the most underestimated characters in **Game of Thrones** and provided one of the most memorable episodes of the series **("The Door")**, arguably better than the series finale!! <br />
-
 **Requirements:**  <br />
 *install from CRAN** <br />
 
