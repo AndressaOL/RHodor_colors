@@ -31,7 +31,7 @@ git clone https://github.com/AndressaOL/RHodor_colors.git
 ```
 library(devtools)
 library(scales)
-source("path/to/RHodor_palettes.R")
+source("/path/to/RHodor_colors/R/RHodor_palettes.R")
 
 ```
 
