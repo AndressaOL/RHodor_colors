@@ -79,7 +79,7 @@ hodor_pal("black_m") (7)
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/nosedive.png)
 
 
-**Select specific colors in the palette** <br />
+## Select specific colors in the palette** <br />
 
 ```
 mycols= hodor_pal("hawkins_s")(3)
