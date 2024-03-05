@@ -2,15 +2,14 @@
 
 <img src="https://github.com/AndressaOL/RHodor_colors/blob/main/figure/hodor.jpg" alt="Alt text" title="HODOR" width="150" height="150" align="right">
 
- $\Large{\textsf{Hodor}}$, named initially Wylis, was a servant of House Stark at Winterfell, loyal to Bran Stark. Hodor was one of the most underestimated characters in $\Large{\textsf{Game of Thrones}}$ and provided one of the most memorable episodes of the series $\Large{\textsf{{The Door}}$ , arguably better than the series finale!! <br />
+ $\Large{\textsf{Hodor}}$, named initially Wylis, was a servant of House Stark at Winterfell, loyal to Bran Stark. Hodor was one of the most underestimated characters in $\Large{\textsf{Game of Thrones}}$ and provided one of the most memorable episodes of the series $\Large{\textsf{"The Door"}}$, arguably better than the series finale!! <br />
 <br />
 <br />
 <br />
-
 
 ##
 **Requirements:**  <br />
-*install from CRAN** <br />
+*install from CRAN* <br />
 
 ```
 install.packages("devtools")
@@ -78,7 +77,7 @@ hodor_pal("soho") (10)
 ![image](https://github.com/AndressaOL/RHodor_colors/blob/main/figure/soho.png) 
 
 
-**Palette  black_m (7)** (Nosedive)  <br /> 
+**Black mirror Palette (7)** (Nosedive)  <br /> 
 
 ```
 hodor_pal("black_m") (7)
